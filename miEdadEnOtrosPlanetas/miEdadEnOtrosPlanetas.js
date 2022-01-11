@@ -2,6 +2,7 @@ var earthYear = 365;
 var ageEarth = document.getElementById("edadTerricola");
 // var chosenPlanet = parseInt(prompt('¿Quieres saber cuantos años tienes en?:\n1. Mercurio\n2. Venus\n3. Marte\n4. Jupiter\n5. Saturno\n6. Urano\n7. Neptuno'))
 ageEarth = parseInt(ageEarth.value);
+var base = document.getElementById("estructura")
 
 if (chosenPlanet == 1)
 {
@@ -64,6 +65,6 @@ function calculoEdadOtrosMundos(edadTierra, diasTierra, diasOtroPlaneta, planet)
     else 
     {
         document.write('<br>');
-        document.write('Estarías más viejo 🤶');
+        document.write('<style color: blue;>' + 'Estarías más viejo 🤶' + '</style>');
     }
 }

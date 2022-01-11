@@ -1,8 +1,26 @@
 body
 {
+    /* background-color: rgb(124, 11, 49); */
+    background-color: rgb(237, 222, 161);
+}
+
+h1
+{
     margin: 0;
     padding: 0;
-    background: url(fondo.jpg);
+    /* background: url(fondo.jpg); */
+    background-color: rgb(61, 179, 225);
     background-size: cover;
     background-position: center;
+    font-family: "Calibri";
+    font-size: 65px;
+        -webkit-text-fill-color: rgb(249, 209, 45);
+        -webkit-text-stroke: 1px;
+        -webkit-text-stroke-color: rebeccapurple;
+}
+
+p
+{
+    font-family: "Calibri";
+    font-size: 35px;
 }
